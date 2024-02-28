@@ -16,10 +16,9 @@ const Header = () => {
           <li className="sm:block hidden cursor-pointer">About Us</li>
         </ul>
       </div>
-      <div className="z-50 sm:block hidden cursor-pointer">
-        <button>Explore Now</button>
-      </div>
-      <img src={hamIcon.src} alt="background gradient mobile cursor-pointer" className="block sm:hidden h-[0.75rem]" />
+      <button className="z-50 md:block hidden cursor-pointer bg-[#553f9a] w-[11rem] h-[3.12rem]">Explore Now</button>
+
+      <img src={hamIcon.src} alt="background gradient mobile cursor-pointer" className="block md:hidden h-[0.75rem]" />
     </div>
   );
 };
