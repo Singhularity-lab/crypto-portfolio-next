@@ -3,3 +3,4 @@
 @tailwind utilities;
 
 .cursor-pointer { cursor: pointer; }
+.card-bg { background: linear-gradient(186.47deg, rgba(255, 253, 253, 0.4) -20.85%, rgba(255, 253, 253, 0.2) -20.83%, rgba(255, 255, 255, 0) 116.4%);  }
