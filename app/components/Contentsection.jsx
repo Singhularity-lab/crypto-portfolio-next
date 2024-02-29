@@ -71,7 +71,7 @@ const Contentsection = () => {
           <img src={feature3ImgMd.src} className="md:hidden sm:block block object-contain"></img>
         </div>
       </div>
-      <div className="mt-8">
+      <div className="mt-8 mb-8">
         <h2 className="font-medium sm:text-[3rem] text-[1.37rem] sm:leading-[3.5rem] leading-[1.61rem] text-center text-white">Use Money in your wallet</h2>
         <h6 className="text-[#A5A3A8] text-[0.62rem] sm:text-[1.5rem] text-center  mt-4">
           Cryptocurrency is a digital form of currency that utilizes cryptography to secure transactions, control the creation of new units, and verify the transfer of assets.

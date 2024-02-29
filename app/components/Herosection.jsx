@@ -26,8 +26,8 @@ const Herosection = () => {
             </div>
           </div>
         </div>
-        <div className=" flex justify-between mt-10">
-          <button className=" text-[0.87rem]  md:text-[1.4rem] font-normal">Our Members</button>
+        <div className=" flex justify-start mt-10">
+          <button className=" text-[0.87rem]  md:text-[1.4rem] font-normal sm:mr-5 mr-2">Our Members</button>
           <div className="flex">
             <img src={avatarOne.src} className="w-[1.68rem] md:w-[3.31rem] h-[1.68rem] md:h-[3.31rem]"></img>
             <img src={avatarTwo.src} className="w-[1.68rem] md:w-[3.31rem] h-[1.68rem] md:h-[3.31rem] -translate-x-2"></img>
