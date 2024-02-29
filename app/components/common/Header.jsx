@@ -9,7 +9,7 @@ const Header = () => {
         <img src={mainLogo.src} className="sm:w-[4.6rem] w-[2.12rem]" alt="crpto logo" />
       </div>
       <div className="z-50">
-        <ul className="flex gap-5 text-sm sm:text-base sm:gap-10">
+        <ul className="flex gap-3 text-sm sm:text-base sm:gap-10">
           <li className="cursor-pointer">Home</li>
           <li className="cursor-pointer">NFT Markets</li>
           <li className="cursor-pointer">Shop</li>

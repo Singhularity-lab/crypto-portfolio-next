@@ -4,8 +4,8 @@ import deskGradient from '../../../public/static/images/desk-gradient.png';
 const Gradient = () => {
   return (
     <div>
-      <img src={deskGradient.src} alt="background gradient" className="absolute sm:block hidden w-[600px] top-0 left-0" />
-      <img src={mobGradient.src} alt="background gradient mobile" className="absolute block sm:hidden w-[100vw] h-[500px] top-0 left-0" />
+      <img src={deskGradient.src} alt="background gradient" className="absolute sm:block hidden w-[600px] top-0 left-0 -z-40" />
+      <img src={mobGradient.src} alt="background gradient mobile" className="absolute block sm:hidden w-[100vw] h-[500px] -z-50" />
     </div>
   );
 };
