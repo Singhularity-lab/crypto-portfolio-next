@@ -11,7 +11,9 @@ const Herosection = () => {
       <div className="flex-col sm:py-auto text-white items-center sm:w-1/2 w-screen sm:my-auto">
         <div className="text-6xl font-semibold">
           <h1 className="md:text-[4rem] sm:text-[2.6rem] text-[1.37rem] sm:text-left text-center leading-6 sm:leading-none">Explore the largest </h1>
-          <h1 className="md:text-[4rem] sm:text-[2.6rem] text-[1.37rem]  sm:text-left text-center leading-6 sm:leading-none">NFT Marketplaces</h1>
+          <h1 className="md:text-[4rem] sm:text-[2.6rem] text-[1.37rem]  sm:text-left text-center leading-6 sm:leading-none">
+            <span className="text-gradient-4">NFT</span> Marketplaces
+          </h1>
         </div>
         <div className="md:text-[1.5rem] text-[0.62rem] text-[#A5A3A8] sm:text-left text-center  mt-4">Buy, Sell & Trade Cryptocurrency Easily and Securely</div>
         <div className="flex mt-6">
